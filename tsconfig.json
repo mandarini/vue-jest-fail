@@ -1,8 +1,15 @@
 {
   "files": [],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/**/*.d.ts"],
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
   "references": [
     {
       "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
     },
     {
       "path": "./tsconfig.app.json"
