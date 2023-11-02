@@ -4,8 +4,15 @@
     "outDir": "../dist/out-tsc",
     "module": "commonjs",
     "types": ["jest", "node"],
-    "esModuleInterop": true,
-    "composite": true
+    "esModuleInterop": true
   },
-  "include": ["jest.config.ts", "src/**/*.test.ts", "src/**/*.spec.ts", "src/**/*.d.ts"]
+  "include": [
+    "jest.config.ts",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.vue",
+    "src/*.vue",
+    "src/**/*.d.ts",
+    "src/*.d.ts"
+  ]
 }
